@@ -1,7 +1,7 @@
 package practice07;
 
 public class Klass {
-    private Integer number;
+    private Integer number = 0;
 
     public Klass(Integer klass){
         this.number = klass;
@@ -9,10 +9,6 @@ public class Klass {
 
     public Integer getNumber() {
         return number;
-    }
-
-    public void setNumber(Integer number) {
-        this.number = number;
     }
 
     public String getDisplayName(){
